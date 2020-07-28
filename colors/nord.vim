@@ -20,7 +20,7 @@ let s:nord0_gui = "#1C2028" "default is \"#2E3440\"
 let s:nord1_gui = "#3B4252"
 let s:nord2_gui = "#434C5E"
 let s:nord3_gui = "#4C566A"
-let s:nord3_gui_bright = "#616E88"
+let s:nord3_gui_bright = "#7484a3"
 let s:nord4_gui = "#D8DEE9"
 let s:nord5_gui = "#E5E9F0"
 let s:nord6_gui = "#ECEFF4"
@@ -271,9 +271,9 @@ endif
 "+----------------------+
 "+ Language Base Groups +
 "+----------------------+
-call s:hi("Boolean", s:nord9_gui, "", s:nord9_term, "", "", "")
-call s:hi("Float", s:nord15_gui, "", s:nord15_term, "", "", "")
-call s:hi("Number", s:nord15_gui, "", s:nord15_term, "", "", "")
+call s:hi("Boolean", s:nord15_gui, "", s:nord15_term, "", "", "")
+call s:hi("Float", s:nord7_gui, "", s:nord7_term, "", "", "")
+call s:hi("Number", s:nord7_gui, "", s:nord7_term, "", "", "")
 call s:hi("Character", s:nord14_gui, "", s:nord14_term, "", "", "")
 call s:hi("String", s:nord14_gui, "", s:nord14_term, "", "", "")
 
@@ -281,7 +281,7 @@ call s:hi("String", s:nord14_gui, "", s:nord14_term, "", "", "")
 call s:hi("Special", s:nord13_gui, "", "NONE", "", "", "")
 call s:hi("SpecialChar", s:nord13_gui, "", s:nord13_term, "", "", "")
 
-call s:hi("Identifier", s:nord15_gui, "", "NONE", "", "NONE", "")
+call s:hi("Identifier", s:nord6_gui, "", "NONE", "", "NONE", "")
 call s:hi("Type", s:nord13_gui, "", s:nord13_term, "", "NONE", "")
 call s:hi("Typedef", s:nord9_gui, "", s:nord9_term, "", "", "")
 
